@@ -11,13 +11,23 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+    align-items: baseline;
 
 }
-.flex-item{
+.flex-item1{
     background-color: brown;
     width: 3rem;
     padding: 3rem;
     height: 3rem;
     border: 1px solid brown;
+
+}
+.flex-item2{
+    background-color: red;
+    width: 1rem;
+    padding: 5rem;
+    height: 15rem;
+    font-size: 5rem;
+
 
 }
